@@ -1,7 +1,6 @@
-/* VARIÁVEIS - AZUL AJUSTADO */
+/* VARIÁVEIS */
 :root {
     --primary-color: #063951;
-    /* Azul escuro da imagem */
     --secondary-color: #f4a261;
     --accent1-color: #264563;
     --heading-font: "Times New Roman", Georgia, serif;
@@ -18,22 +17,21 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    line-height: 1.6;
 }
 
-/* HEADER - OCUPA A LARGURA TODA */
+/* HEADER */
 header {
     background-color: var(--primary-color);
     padding: 15px 0;
     width: 100%;
 }
 
-/* CONTAINER INTERNO DO HEADER - CENTRALIZA O CONTEÚDO */
 .header-container {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
     max-width: 960px;
-    /* Mesma largura do seu conteúdo main */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -42,7 +40,7 @@ header img {
     width: 100px;
 }
 
-/* NAVEGAÇÃO ALINHADA À DIREITA */
+/* NAV */
 nav {
     display: flex;
     justify-content: flex-end;
@@ -62,11 +60,58 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* CONTEÚDO PRINCIPAL */
+/* MAIN */
 main {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
+}
+
+/* HERO (imagem grande topo) */
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* IMAGENS GERAIS (corrige seu problema) */
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* IMAGENS DE CONTEÚDO (menores e organizadas) */
+.content img {
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+/* SEÇÕES COM IMAGEM + TEXTO */
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section img {
+    max-width: 400px;
+}
+
+/* TÍTULOS */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* PARÁGRAFOS */
+p {
+    margin-bottom: 15px;
 }
 
 /* FOOTER */
@@ -80,6 +125,7 @@ footer {
     border-top: 1px solid #ccc;
 }
 
+/* SOCIAL */
 .socialmedia {
     display: flex;
     gap: 15px;
@@ -87,12 +133,4 @@ footer {
 
 .socialmedia img {
     width: 30px;
-}
-
-/* TÍTULOS */
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    margin-bottom: 15px;
 }
