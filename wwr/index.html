@@ -4,119 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Down the River | Home</title>
     <meta name="description"
-      content="Explore our exciting rafting trips and book your adventure today!">
-    <meta name="author" content="Jose Vinicius Dantas Barbosa">
-
-    <link rel="stylesheet" href="styles/trips.css">
-
-    <title>Our Trips | Down the River</title>
+      content="Experience unforgettable rafting adventures with Down the River.">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
 
     <header>
-        <img src="images/wwr_logo.png" alt="Down the River Logo">
+        <div class="header-container">
+            <img src="images/wwr_logo.png" alt="Rafting Logo">
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="trips.html">Trips</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <main>
 
-        <!-- HERO / CTA -->
-        <section class="trips-hero">
-            <h1>Choose Your Adventure</h1>
-            <p>Experience the thrill of rafting with our expert guides.</p>
-            <a href="contact.html" class="cta-button">Book Your Trip Now</a>
+        <!-- HERO -->
+        <div class="hero">
+            <img src="images/rafting-rapid1.jpg" alt="Rafting Adventure">
+        </div>
+
+        <!-- INTRO -->
+        <section>
+            <h1>Welcome to Down the River</h1>
+            <p>
+                We provide unforgettable rafting adventures, connecting people with nature
+                and creating lifelong memories on the river.
+            </p>
         </section>
 
-        <!-- TRIPS GRID -->
-        <section class="trip-grid">
+        <!-- CALL TO ACTION -->
+        <section class="section">
+            <div>
+                <h2>Adventure Awaits You!</h2>
+                <p>
+                    Whether you're looking for a relaxing float or an adrenaline-filled rapid ride,
+                    we have the perfect trip for you.
+                </p>
+                <a href="trips.html">Explore Our Trips →</a>
+            </div>
 
-            <article class="trip-card">
-                <img src="images/trip1.jpg" alt="Beginner Rafting">
-                <h2>Beginner Rapids</h2>
-                <p>Perfect for first-timers. Enjoy calm waters and scenic views while learning the
-                    basics of rafting.</p>
-            </article>
-
-            <article class="trip-card">
-                <img src="images/trip2.jpg" alt="Intermediate Rafting">
-                <h2>Adventure Rapids</h2>
-                <p>A mix of excitement and challenge. Ideal for those with some experience looking
-                    for more action.</p>
-            </article>
-
-            <article class="trip-card">
-                <img src="images/trip3.jpg" alt="Extreme Rafting">
-                <h2>Extreme Rapids</h2>
-                <p>For thrill seekers only! Face intense rapids and adrenaline-pumping drops.</p>
-            </article>
-
+            <img src="images/happy_client.jpg" alt="Happy rafters">
         </section>
 
-        <!-- TABLE -->
-        <section class="trip-table">
-            <h2>All Available Trips</h2>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Trip</th>
-                        <th>Difficulty</th>
-                        <th>Duration</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Beginner Rapids</td>
-                        <td>Easy</td>
-                        <td>2 Hours</td>
-                        <td>$50</td>
-                    </tr>
-
-                    <tr>
-                        <td>Adventure Rapids</td>
-                        <td>Medium</td>
-                        <td>4 Hours</td>
-                        <td>$90</td>
-                    </tr>
-
-                    <tr>
-                        <td>Extreme Rapids</td>
-                        <td>Hard</td>
-                        <td>6 Hours</td>
-                        <td>$150</td>
-                    </tr>
-                </tbody>
-            </table>
+        <!-- FEATURES -->
+        <section>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Experienced and certified guides</li>
+                <li>Safe and high-quality equipment</li>
+                <li>Options for beginners and experts</li>
+                <li>Unforgettable landscapes</li>
+            </ul>
         </section>
 
     </main>
 
     <footer>
-        <p>© 2026 | Jose Vinicius Dantas Barbosa | Down the River</p>
+        <p>© 2026 Down the River | Jose Vinicius Barbosa</p>
 
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook_logo.png" alt="Facebook">
-            </a>
-
-            <a href="https://linkedin.com">
-                <img src="images/linkedin_logo.png" alt="LinkedIn">
-            </a>
-
-            <a href="https://instagram.com">
-                <img src="images/insta_logo.png" alt="Instagram">
-            </a>
-        </nav>
+        <div class="socialmedia">
+            <img src="images/facebook_logo.png" alt="Facebook">
+            <img src="images/insta_logo.png" alt="Instagram">
+            <img src="images/linkedin_logo.png" alt="LinkedIn">
+        </div>
     </footer>
 
 </body>
