@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Down the River for reservations, questions, or suggestions about your rafting adventure.">
+    <meta name="description"
+      content="Contact Down the River for reservations, questions, or suggestions about your rafting adventure.">
     <meta name="author" content="Jose Vinicius Dantas Barbosa">
     <link rel="stylesheet" href="rafting.css">
     <title>Contact Us - Down the River</title>
@@ -14,132 +15,128 @@
 
 <body>
 
-<header>
-    <img src="images/wwr_logo.png" alt="Down the River Logo">
+    <header>
+        <img src="images/wwr_logo.png" alt="Down the River Logo">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
-</header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
 
-<main>
+    <main>
 
-    <h1>Contact Us</h1>
+        <h1>Contact Us</h1>
 
-    <!-- CONTACT INFO -->
-    <section class="contact-info">
-        <h2>Company Information</h2>
+        <!-- CONTACT INFO -->
+        <section class="contact-info">
+            <h2>Company Information</h2>
 
-        <p><strong>Address:</strong> 123 River Road, Fortaleza, Brazil</p>
-        <p><strong>Phone:</strong> (85) 3038-9088</p>
-        <p><strong>Email:</strong> contact@downtheriver.com</p>
+            <p><strong>Address:</strong> 123 River Road, Fortaleza, Brazil</p>
+            <p><strong>Phone:</strong> (85) 3038-9088</p>
+            <p><strong>Email:</strong> contact@downtheriver.com</p>
 
-        <iframe 
-            src="https://www.google.com/maps?q=Fortaleza,Brazil&output=embed"
-            width="100%" 
-            height="300"
-            loading="lazy">
-        </iframe>
-    </section>
+            <iframe src="https://www.google.com/maps?q=Fortaleza,Brazil&output=embed" width="100%"
+              height="300" loading="lazy">
+            </iframe>
+        </section>
 
-    <!-- EMPLOYEES -->
-    <section class="employees">
-        <h2>Meet Our Team</h2>
+        <!-- EMPLOYEES -->
+        <section class="employees">
+            <h2>Meet Our Team</h2>
 
-        <figure>
-            <img src="images/employee1.jpg" alt="River Guide">
-            <figcaption>Lucas Silva - River Guide</figcaption>
-        </figure>
+            <figure>
+                <img src="images/employee1.jpg" alt="River Guide">
+                <figcaption>Lucas Silva - River Guide</figcaption>
+            </figure>
 
-        <figure>
-            <img src="images/employee2.jpg" alt="Manager">
-            <figcaption>Ana Costa - Manager</figcaption>
-        </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Manager">
+                <figcaption>Joã Costa - Manager</figcaption>
+            </figure>
 
-        <figure>
-            <img src="images/employee3.jpeg" alt="Instructor">
-            <figcaption>Pedro Souza - Instructor</figcaption>
-        </figure>
-    </section>
+            <figure>
+                <img src="images/employee3.jpeg" alt="Instructor">
+                <figcaption>Pedro Souza - Instructor</figcaption>
+            </figure>
+        </section>
 
-    <!-- FORM -->
-    <section class="contact-form">
-        <h2>Send Us a Message</h2>
+        <!-- FORM -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
 
-        <form>
+            <form>
 
-            <fieldset>
-                <legend>Your Information</legend>
+                <fieldset>
+                    <legend>Your Information</legend>
 
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-            </fieldset>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                </fieldset>
 
-            <fieldset>
-                <legend>Message Purpose</legend>
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <br><br>
 
                 <label>
-                    <input type="radio" name="purpose" value="general" required>
-                    General Inquiry
-                </label><br>
-
-                <label>
-                    <input type="radio" name="purpose" value="reservation">
-                    Reservation Question
-                </label><br>
-
-                <label>
-                    <input type="radio" name="purpose" value="suggestion">
-                    Website Suggestion
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
                 </label>
-            </fieldset>
 
-            <br>
+                <br><br>
 
-            <label for="message">Your Message:</label><br>
-            <textarea id="message" name="message" rows="5"></textarea>
+                <button type="submit">Send Message</button>
 
-            <br><br>
+            </form>
+        </section>
 
-            <label>
-                <input type="checkbox" name="subscribe">
-                Please subscribe me to the monthly newsletter
-            </label>
+    </main>
 
-            <br><br>
+    <footer>
+        <p>© 2026 | Jose Vinicius Dantas Barbosa | Down the River</p>
 
-            <button type="submit">Send Message</button>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo.png" alt="Facebook">
+            </a>
 
-        </form>
-    </section>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin_logo.png" alt="LinkedIn">
+            </a>
 
-</main>
-
-<footer>
-    <p>© 2026 | Jose Vinicius Dantas Barbosa | Down the River</p>
-
-    <nav class="socialmedia">
-        <a href="https://facebook.com">
-            <img src="images/facebook_logo.png" alt="Facebook">
-        </a>
-
-        <a href="https://linkedin.com">
-            <img src="images/linkedin_logo.png" alt="LinkedIn">
-        </a>
-
-        <a href="https://instagram.com">
-            <img src="images/insta_logo.png" alt="Instagram">
-        </a>
-    </nav>
-</footer>
+            <a href="https://instagram.com">
+                <img src="images/insta_logo.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
 
 </body>
 
 </html>
-```
