@@ -46,6 +46,9 @@ height: auto;
 main img {
     width: 150px;
     height: auto;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 10%;
 }
 
 footer {
