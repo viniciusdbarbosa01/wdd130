@@ -13,57 +13,76 @@
 <body>
 
     <header>
-        <div class="header-container">
-            <img src="images/wwr_logo.png" alt="Rafting Logo">
+        <img src="images/wwr_logo.png" alt="Rafting Logo">
 
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="trips.html">Trips</a>
-                <a href="about.html">About Us</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="trips.html">Trips</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <main>
 
-        <!-- HERO -->
         <div class="hero">
             <img src="images/rafting-rapid1.jpg" alt="Rafting Adventure">
+            <h1>Down the River</h1>
         </div>
 
-        <!-- INTRO -->
-        <section>
-            <h1>Welcome to Down the River</h1>
-            <p>
-                We provide unforgettable rafting adventures, connecting people with nature
-                and creating lifelong memories on the river.
-            </p>
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <button type="submit">Subscribe</button>
+            </form>
         </section>
 
-        <!-- CALL TO ACTION -->
-        <section class="section">
-            <div>
-                <h2>Adventure Awaits You!</h2>
+        <section class="cta">
+            <h2>Ready for Your Next Adventure?</h2>
+
+            <p>
+                Discover exciting rafting experiences for beginners, families,
+                and thrill-seekers. Find the perfect adventure for your next trip!
+            </p>
+
+            <a href="trips.html" class="cta-button">
+                View Our Trips
+            </a>
+        </section>
+
+        <section class="home-grid">
+
+            <div class="grid-item">
+                <img src="images/happy_client.jpg" alt="Happy rafting guests">
+
+                <h2>Our Purpose</h2>
+
                 <p>
-                    Whether you're looking for a relaxing float or an adrenaline-filled rapid ride,
-                    we have the perfect trip for you.
+                    At Down the River, our mission is to connect people with
+                    nature through safe, exciting, and unforgettable white water
+                    rafting adventures.
                 </p>
-                <a href="trips.html">Explore Our Trips →</a>
             </div>
 
-            <img src="images/happy_client.jpg" alt="Happy rafters">
-        </section>
+            <div class="grid-item">
+                <img src="images/rafting-rapid1.jpg" alt="White water rafting">
 
-        <!-- FEATURES -->
-        <section>
-            <h2>Why Choose Us?</h2>
-            <ul>
-                <li>Experienced and certified guides</li>
-                <li>Safe and high-quality equipment</li>
-                <li>Options for beginners and experts</li>
-                <li>Unforgettable landscapes</li>
-            </ul>
+                <h2>What We Offer</h2>
+
+                <p>
+                    We offer guided rafting trips for every experience level,
+                    from relaxing family floats to challenging rapids with
+                    certified professional guides.
+                </p>
+            </div>
+
         </section>
 
     </main>

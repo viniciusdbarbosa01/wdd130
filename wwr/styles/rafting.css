@@ -24,7 +24,7 @@ footer {
     margin: 0 auto;
 }
 
-/* HEADER */
+
 
 header {
     background-color: var(--primary-color);
@@ -113,7 +113,7 @@ main h1 {
     margin-left: 20px;
 }
 
-/* GENERAL */
+
 
 section {
     margin: 50px 0;
@@ -131,13 +131,13 @@ p {
     font-size: 1.1rem;
 }
 
-/* HISTORY */
+
 
 .history {
     text-align: left;
 }
 
-/* ADVENTURE */
+
 
 .adventure h2 {
     text-align: center;
@@ -169,7 +169,7 @@ p {
     color: var(--primary-color);
 }
 
-/* CONTACT INFO */
+
 
 .contact-info {
     text-align: center;
@@ -188,7 +188,7 @@ p {
     margin-bottom: 10px;
 }
 
-/* CONTACT LAYOUT (map + form) */
+
 
 .contact-layout {
     display: grid;
@@ -208,7 +208,7 @@ p {
     border: 0;
 }
 
-/* CONTACT FORM */
+
 
 .contact-form {
     margin: 0;
@@ -328,7 +328,7 @@ p {
     color: var(--primary-color);
 }
 
-/* FOOTER */
+
 
 footer {
     margin-top: 40px;
@@ -348,4 +348,91 @@ footer {
 .socialmedia img {
     width: 40px;
     display: block;
+}
+
+
+.newsletter {
+    background: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+}
+
+.newsletter form {
+    width: 400px;
+    max-width: 100%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newsletter input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px;
+    background: var(--primary-color);
+    color: white;
+}
+
+.cta h2 {
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: white;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.grid-item {
+    background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.grid-item h2 {
+    margin-bottom: 15px;
 }
